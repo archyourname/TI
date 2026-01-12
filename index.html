@@ -8,30 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Chosen Palette: Warm Neutral & Professional Indigo -->
-    <!-- Background: #F3F4F6 (Warm Light Grey) -->
-    <!-- Surface: #FFFFFF (White) -->
-    <!-- Primary: #4F46E5 (Indigo 600) -->
-    <!-- Secondary: #F59E0B (Amber 500) -->
-    <!-- Text: #1F2937 (Grey 800) -->
-
-    <!-- Application Structure Plan: 
-         1. Hero Section: Sets the context of the "Research Report".
-         2. Key Metrics Dashboard: High-level quantitative data (Market Size, Adoption) using Charts.
-         3. Technology Explorer (The Core): An interactive split-view. Left side lists technologies (Acting as a filter/nav), Right side shows detailed "Qualitative Insights" (Findings, Use Cases, Challenges). This facilitates "active learning".
-         4. Comparative Matrix: A grid layout to compare technologies across different dimensions (Cost, Risk, Impact).
-         5. Future Outlook: Textual summary and recommendation engine.
-         Rationale: This structure moves from macro (stats) to micro (specific tech details) to synthesis (comparison), mimicking the flow of a research analysis.
-    -->
-
-    <!-- Visualization & Content Choices:
-         1. Adoption Rates (Bar Chart): To compare how widely used each tech is. Goal: Compare.
-         2. Investment Projection (Line Chart): To show growth trends over time. Goal: Change/Trend.
-         3. Tech Cards (Interactive HTML): To present qualitative data (descriptions, pros/cons) cleanly. Goal: Inform.
-         4. Impact vs. Feasibility (HTML Grid/Matrix): To visualize strategic positioning without complex scatter plots. Goal: Organize/Relationships.
-         CONFIRMATION: NO SVG graphics used. NO Mermaid JS used.
-    -->
-
     <style>
         body { font-family: 'Inter', sans-serif; background-color: #F3F4F6; color: #1F2937; }
         .chart-container {
@@ -126,7 +102,7 @@
             </div>
         </section>
 
-        <!-- Section 2: Data Analysis (Charts) -->
+        <!-- Tabel data disini -->
         <section id="data-analysis" class="bg-gray-50 py-12 border-t border-gray-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-10">
@@ -137,7 +113,7 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Chart 1: Adoption Rates -->
+                    <!-- tabel 1 disini -->
                     <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                         <div class="flex justify-between items-center mb-6">
                             <h4 class="text-lg font-semibold text-gray-800">Tingkat Adopsi Teknologi (2024-2025)</h4>
@@ -151,7 +127,7 @@
                         </p>
                     </div>
 
-                    <!-- Chart 2: Growth Projection -->
+                    <!-- tabel 2 disini -->
                     <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                         <div class="flex justify-between items-center mb-6">
                             <h4 class="text-lg font-semibold text-gray-800">Proyeksi Pertumbuhan Nilai Pasar (CAGR)</h4>
@@ -168,7 +144,7 @@
             </div>
         </section>
 
-        <!-- Section 3: Deep Dive Explorer (Interactive) -->
+        <!-- tabel 3 disini -->
         <section id="tech-explorer" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div class="mb-8">
                 <h3 class="text-2xl font-bold text-gray-900">Eksplorasi Detail Teknologi</h3>
@@ -305,7 +281,7 @@
             <div class="flex space-x-6 text-sm">
                 <a href="#" class="hover:text-white transition">Metodologi</a>
                 <a href="#" class="hover:text-white transition">Sumber Data</a>
-                <a href="Laporan_Riset_Mendalam.pdf" download class="hover:text-white transition">Unduh PDF</a>
+                <a href="Laporan_Riset_Mendalam.pdf" download class="hover:text-white transition"><button>Unduh PDF</button></a>
             </div>
         </div>
     </footer>
